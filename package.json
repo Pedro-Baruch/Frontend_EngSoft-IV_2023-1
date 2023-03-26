@@ -1,0 +1,16 @@
+{
+  "name": "frontend_engsoft-iv_2023-1",
+  "version": "1.0.0",
+  "description": "Tentando fazer deploy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch app --watch libs src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.22"
+  }
+}
